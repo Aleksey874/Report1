@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="/src/css/style.css">
+    <!-- !Подключим шрифты -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,500&family=Poor+Story&family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100&display=swap"
+        rel="stylesheet">
+    <!-- <link rel="stylesheet" href="css/flavored-reset-and-normalize.min.css"> -->
+    <title>Game Site</title>
+</head>
+
+<body>
+    <!-- Создадим container для grid-items -->
+    <div class="container">
+
+        <div class="sidebar">
+            <input type="checkbox" class="sidebar__toggle" id="sidebar-toggle">
+            <label for="sidebar-toggle" class="sidebar__button">
+                <span class="sidebar__icon"></span>
+            </label>
+
+            <nav class="sidebar__nav">
+                <ul class="sidebar__list">
+                    <li class="sidebar__item">
+                        <a href="" class="sidebar__link">Аренда консолей</a>
+                    </li>
+                    <li class="sidebar__item">
+                        <a href="" class="sidebar__link">Командные соревнования</a>
+                    </li>
+                    <li class="sidebar__item">
+                        <a href="" class="sidebar__link">Аренда сервера</a>
+                    </li>
+                    <li class="sidebar__item">
+                        <a href="" class="sidebar__link">Сообщество</a>
+                    </li>
+                    <li class="sidebar__item">
+                        <a href="" class="sidebar__link">Работай и играй</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="header">
+            <a class="logo">
+                <img src="img/logo-footer.svg" alt="">
+            </a>
+            <h4 class="title-4">ТВОЯ ИГРОВАЯ СТАНЦИЯ</h4>
+            <h1 class="title-1">Погрузись в мир современных игр</h1>
+            <button class="btn header__btn">ВЫБРАТЬ ПРИСТАВКУ</button>
+            <div class="header__line-text">О нас</div>
+            <div class="header__container">
+                <img src="img/vectors/Group.png" alt="" class="header__img">
+                <img src="img/vectors/Group-1.png" alt="" class="header__img">
+                <img src="img/vectors/PC_Gamer_old_logo 1.png" alt="" class="header__img">
+                <img src="img/vectors/Слой 2.png" alt="" class="header__img">
+            </div>
+        </div>
+
+        <div class="gamers">
+            <div class="title-4 text-center gamers__title">TOP 3 PLAYERS</div>
+
+                <div class="players players__player-1">
+                    <img src="img/players/lisa.jpg" alt="" class="players__img">
+                    <div class="players__name">
+                        <div class="title-white-4">Лиза Фролова</div>
+                        <div class="text">score 2953</div>
+                    </div>
+                </div>
+
+                <div class="players players__player-2">
+                    <img src="img/players/andrey.png" alt="" class="players__img">
+                    <div class="players__name">
+                        <div class="title-white-4">Андрей Степанов</div>
+                        <div class="text">score 2453</div>
+                    </div>
+                </div>
+
+                <div class="players players__player-1">
+                    <img src="img/players/ivan.png" alt="" class="players__img">
+                    <div class="players__name">
+                        <div class="title-white-4">Иван Савельев</div>
+                        <div class="text">score 2253</div>
+                    </div>
+            </div>
+        </div>
+
+
+        <div class="features">
+            <div class="feature">
+                <!-- <svg class="feature__icon">
+                    <use xlink:href ="icons/symbol-defs.svg/icon-steam2"></use>
+                </svg> -->
+                <img class="feature__icon" src="icons/steam2.svg" alt="icons">
+                <div class="title-3">Лучшая игровая платформа</div>
+                <p class="feature__text">Как уже неоднократно упомянуто, базовые сценарии поведения пользователей
+                    освещают чрезвычайно интересные особенности картины.</p>
+            </div>
+            <div class="feature">
+                <img class="feature__icon" src="icons/Vector-1.svg" alt="icons">
+                <h3 class="title-3">Еженедельные турниры</h3>
+                <p class="feature__text">Как уже неоднократно упомянуто, базовые сценарии поведения пользователей
+                    освещают чрезвычайно интересные особенности картины.</p>
+            </div>
+            <div class="feature">
+                <img class="feature__icon" src="icons/headphones.svg" alt="icons">
+                <h3 class="title-3">Онлайн общение</h3>
+                <p class="feature__text">Как уже неоднократно упомянуто, базовые сценарии поведения пользователей
+                    освещают чрезвычайно интересные особенности картины.</p>
+            </div>
+            <div class="feature">
+                <img class="feature__icon" src="icons/earth.svg" alt="icons">
+                <h3 class="title-3">Сообщество во всем мире</h3>
+                <p class="feature__text">Как уже неоднократно упомянуто, базовые сценарии поведения пользователей
+                    освещают чрезвычайно интересные особенности картины.</p>
+            </div>
+            <div class="feature">
+                <img class="feature__icon" src="icons/bubbles2.svg" alt="icons">
+                <h3 class="title-3">Онлайн чат с поддержкой</h3>
+                <p class="feature__text">Как уже неоднократно упомянуто, базовые сценарии поведения пользователей
+                    освещают чрезвычайно интересные особенности картины.</p>
+            </div>
+            <div class="feature">
+                <img class="feature__icon" src="icons/Vector.svg" alt="icons">
+                <h3 class="title-3">Удобная система оплаты</h3>
+                <p class="feature__text">Как уже неоднократно упомянуто, базовые сценарии поведения пользователей
+                    освещают чрезвычайно интересные особенности картины.</p>
+            </div>
+        </div>
+
+        <div class="banner-img">
+            <img src="img/Rectangle 6.png" alt="" class="banner-img__img-1">
+            <img src="img/Rectangle 7.png" alt="" class="banner-img__img-2">
+        </div>
+
+        <div class="banner-text">
+            <h4 class="title-4">ВЕДИ КОМАНДУ К ПОБЕДЕ</h4>
+            <h2 class="title-2 margin-bottom-30px">Лучшее место для онлайн соревнований</h2>
+            <p class="banner-text__text text margin-bottom-40px">
+                Как уже неоднократно упомянуто, базовые сценарии поведения пользователей освещают чрезвычайно интересные
+                особенности картины.
+            </p>
+            <button class="btn card__btn">СОЗДАТЬ КОМАНДУ</button>
+        </div>
+        <div class="cards">
+
+            <div class="card">
+                <img src="img/Rectangle 9-5.png" alt="img" class="card__img">
+                <h5 class="card__title">PC</h5>
+
+                <div class="content card__location">
+                    <svg class="card__svg">
+                        <use xlink:href="icons/sprite-2.svg#icon-location-1"></use>
+                    </svg>
+                    <p>EUR</p>
+                </div>
+
+                <div class="content card__players">
+                    <svg class="card__svg">
+                        <use xlink:href="icons/sprite-2.svg#icon-users-1"></use>
+                    </svg>
+                    <p>players</p>
+                </div>
+
+                <div class="content card__money">
+                    <svg class="card__svg">
+                        <use xlink:href="icons/sprite-2.svg#icon-Vector"></use>
+                    </svg>
+                    <p>от 100руб</p>
+                </div>
+
+                <div class="content card__ monitor">
+                    <svg class="card__svg">
+                        <use xlink:href="icons/sprite-2.svg#icon-display-1"></use>
+                    </svg>
+                    <p>4К монитор</p>
+                </div>
+                <button class="btn card__btn">Выбрать платформу</button>
+            </div>
+
+            <div class="card">
+                <img src="img/Rectangle 9-4.png" alt="img" class="card__img">
+                <h5 class="card__title">Play Station</h5>
+
+                <div class="content card__location">
+                    <svg class="card__svg">
+                        <use xlink:href="icons/sprite-2.svg#icon-location-1"></use>
+                    </svg>
+                    <p>EUR</p>
+                </div>
+
+                <div class="content card__players">
+                    <svg class="card__svg">
+                        <use xlink:href="icons/sprite-2.svg#icon-users-1"></use>
+                    </svg>
+                    <p>players</p>
+                </div>
+
+                <div class="content card__money">
+                    <svg class="card__svg">
+                        <use xlink:href="icons/sprite-2.svg#icon-Vector"></use>
+                    </svg>
+                    <p>от 100руб</p>
+                </div>
+
+                <div class="content card__ monitor">
+                    <svg class="card__svg">
+                        <use xlink:href="icons/sprite-2.svg#icon-display-1"></use>
+                    </svg>
+                    <p>4К монитор</p>
+                </div>
+                <button class="btn card__btn">Выбрать платформу</button>
+            </div>
+
+            <div class="card">
+                <img src="img/Rectangle 9-3.png" alt="img" class="card__img">
+                <h5 class="card__title">X-BOX</h5>
+
+                <div class="content card__location">
+                    <svg class="card__svg">
+                        <use xlink:href="icons/sprite-2.svg#icon-location-1"></use>
+                    </svg>
+                    <p>EUR</p>
+                </div>
+
+                <div class="content card__players">
+                    <svg class="card__svg">
+                        <use xlink:href="icons/sprite-2.svg#icon-users-1"></use>
+                    </svg>
+                    <p>players</p>
+                </div>
+
+                <div class="content card__money">
+                    <svg class="card__svg">
+                        <use xlink:href="icons/sprite-2.svg#icon-Vector"></use>
+                    </svg>
+                    <p>от 100руб</p>
+                </div>
+
+                <div class="content card__ monitor">
+                    <svg class="card__svg">
+                        <use xlink:href="icons/sprite-2.svg#icon-display-1"></use>
+                    </svg>
+                    <p>4К монитор</p>
+                </div>
+                <button class="btn card__btn">Выбрать платформу</button>
+            </div>
+
+            <div class="card">
+                <img src="img/Rectangle 9-2.png" alt="img" class="card__img">
+                <h5 class="card__title">Nintendo</h5>
+
+                <div class="content card__location">
+                    <svg class="card__svg">
+                        <use xlink:href="icons/sprite-2.svg#icon-location-1"></use>
+                    </svg>
+                    <p>EUR</p>
+                </div>
+
+                <div class="content card__players">
+                    <svg class="card__svg">
+                        <use xlink:href="icons/sprite-2.svg#icon-users-1"></use>
+                    </svg>
+                    <p>players</p>
+                </div>
+
+                <div class="content card__money">
+                    <svg class="card__svg">
+                        <use xlink:href="icons/sprite-2.svg#icon-Vector"></use>
+                    </svg>
+                    <p>от 100руб</p>
+                </div>
+
+                <div class="content card__ monitor">
+                    <svg class="card__svg">
+                        <use xlink:href="icons/sprite-2.svg#icon-display-1"></use>
+                    </svg>
+                    <p>4К монитор</p>
+                </div>
+                <button class="btn card__btn">Выбрать платформу</button>
+            </div>
+
+            <div class="card">
+                <img src="img/Rectangle 9-1.png" alt="img" class="card__img">
+                <h5 class="card__title">Steam deck</h5>
+
+                <div class="content card__location">
+                    <svg class="card__svg">
+                        <use xlink:href="icons/sprite-2.svg#icon-location-1"></use>
+                    </svg>
+                    <p>EUR</p>
+                </div>
+
+                <div class="content card__players">
+                    <svg class="card__svg">
+                        <use xlink:href="icons/sprite-2.svg#icon-users-1"></use>
+                    </svg>
+                    <p>players</p>
+                </div>
+
+                <div class="content card__money">
+                    <svg class="card__svg">
+                        <use xlink:href="icons/sprite-2.svg#icon-Vector"></use>
+                    </svg>
+                    <p>от 100руб</p>
+                </div>
+
+                <div class="content card__ monitor">
+                    <svg class="card__svg">
+                        <use xlink:href="icons/sprite-2.svg#icon-display-1"></use>
+                    </svg>
+                    <p>4К монитор</p>
+                </div>
+                <button class="btn card__btn">Выбрать платформу</button>
+            </div>
+
+            <div class="card">
+                <img src="img/Rectangle 9.png" alt="img" class="card__img">
+                <h5 class="card__title">Mobile</h5>
+
+                <div class="content card__location">
+                    <svg class="card__svg">
+                        <use xlink:href="icons/sprite-2.svg#icon-location-1"></use>
+                    </svg>
+                    <p>EUR</p>
+                </div>
+
+                <div class="content card__players">
+                    <svg class="card__svg">
+                        <use xlink:href="icons/sprite-2.svg#icon-users-1"></use>
+                    </svg>
+                    <p>players</p>
+                </div>
+
+                <div class="content card__money">
+                    <svg class="card__svg">
+                        <use xlink:href="icons/sprite-2.svg#icon-Vector"></use>
+                    </svg>
+                    <p>от 100руб</p>
+                </div>
+
+                <div class="content card__ monitor">
+                    <svg class="card__svg">
+                        <use xlink:href="icons/sprite-2.svg#icon-display-1"></use>
+                    </svg>
+                    <p>4К монитор</p>
+                </div>
+                <button class="btn card__btn">Выбрать платформу</button>
+            </div>
+
+        </div>
+
+        <div class="gallery">
+                <div class="gallery__item gallery__item-1">
+                    <img src="img/gallery/Rectangle 12.png" alt="" class="gallery__img">
+                </div>
+
+                <div class="gallery__item gallery__item-2">
+                    <img src="img/gallery/Rectangle 13.png" alt="" class="gallery__img">
+                </div>
+
+                <div class="gallery__item gallery__item-3">
+                    <img src="img/gallery/Rectangle 14.png" alt="" class="gallery__img">
+                </div>
+
+                <div class="gallery__item gallery__item-4">
+                    <img src="img/gallery/Rectangle 15.png" alt="" class="gallery__img">
+                </div>
+
+                <div class="gallery__item gallery__item-5">
+                    <img src="img/gallery/Rectangle 16.png" alt="" class="gallery__img">
+                </div>
+
+                <div class="gallery__item gallery__item-6">
+                    <img src="img/gallery/Rectangle 17.png" alt="" class="gallery__img">
+                </div>
+
+                <div class="gallery__item gallery__item-7">
+                    <img src="img/gallery/Rectangle 18.png" alt="" class="gallery__img">
+                </div>
+
+                <div class="gallery__item gallery__item-8">
+                    <img src="img/gallery/Rectangle 19.png" alt="" class="gallery__img">
+                </div>
+
+                <div class="gallery__item gallery__item-9">
+                    <img src="img/gallery/Rectangle 20.png" alt="" class="gallery__img">
+                </div>
+
+                <div class="gallery__item gallery__item-10">
+                    <img src="img/gallery/Rectangle 21.png" alt="" class="gallery__img">
+                </div>
+
+                <div class="gallery__item gallery__item-11">
+                    <img src="img/gallery/Rectangle 22.png" alt="" class="gallery__img">
+                </div>
+
+                <div class="gallery__item gallery__item-12">
+                    <img src="img/gallery/Rectangle 23.png" alt="" class="gallery__img">
+                </div>
+
+                <div class="gallery__item gallery__item-13">
+                    <img src="img/gallery/Rectangle 24.png" alt="" class="gallery__img">
+                </div>
+
+                <div class="gallery__item gallery__item-14">
+                    <img src="img/gallery/Rectangle 25.png" alt="" class="gallery__img">
+                </div>
+        </div>
+
+        <!-- <div class="gallery-slider">
+            <div class="gallery-slider_container">
+                <button class="gallery-slider__btn gallery-slider__btn_left">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="gallery-slider__btn gallery-slider__btn_right">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+                <button class="gallery-slider__btn gallery-slider__btn_close">
+                    <i class="far fa-times-circle"></i>
+                </button> 
+            </div>
+        </div> -->
+
+
+        <div class="footer">
+            <a class="logo">
+                <img src="img/logo-footer.svg" alt="">
+            </a>
+
+            <div class="footer__menu">
+                <ul class="footer__items">
+                    <li class="footer__items_item">аренда консолей</li>
+                    <li class="footer__items_item">командные соревнования</li>
+                    <li class="footer__items_item">аренда сервера</li>
+                    <li class="footer__items_item">сообщетсво</li>
+                    <li class="footer__items_item">Работай и играй</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/app.js"></script>
+</html>

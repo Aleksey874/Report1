@@ -1,0 +1,33 @@
+.gamers
+    background: $color-blue-dark
+    grid-column: col-start 7 / full-end
+    display: grid
+    // grid-templates-columns: min-content max-content
+    grid-template-columns: max content
+    grid-gap: 4rem 2rem
+    align-content: center
+    justify-content: center
+    @media only screen and (max-width: 900px)
+        grid-column: 1 / -1
+        padding: 5rem 0rem
+        grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr))
+        justify-items: center // выравнивание по центру
+    &__title
+        grid-column: 1 / -1
+        justify-self: center
+    &__name
+        align-self: center
+    @media only screen and (max-width: 650px)
+        grid-template-columns: min-content
+        justify-items: start
+
+    
+
+.players
+    display: grid
+    grid-template-columns: max-content max-content
+    column-gap: 3rem
+    align-items: center
+    &__img
+        border-radius: 50%
+        width: 7rem
